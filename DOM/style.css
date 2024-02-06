@@ -17,6 +17,10 @@ body{
     background-size: cover;
     color: white;
 }
+.bg-dark{
+    background: black;
+    color: white;
+}
 .header a{
     color: white;
     text-decoration: none;
@@ -88,6 +92,20 @@ body{
     background-color: #b2adb1;
     color: white;
     font-weight: 700;
+}
+.todo-list{
+    text-align: left;
+    font-size: 1.2rem;
+    list-style-type: none;
+}
+.todo-list li{
+    margin-top: 1rem;
+    padding: 0.7rem;
+    /* width: 100px; */
+    /* height: 250px; */
+    background: #444;
+    /* border-radius: 1px soild black; */
+    color: white;
 }
 /* signup form */
 .section-signup{
