@@ -21,8 +21,8 @@
     <!-- <script src="InsertAdjacentHTML.js" defer></script> -->
     <!-- <script src="CloneNode.js" defer></script> -->
     <!-- <script src="SomeOldMethods.js" defer></script> -->
-    <script src="StaticList_VS_LiveList.js" defer></script>
-
+    <!-- <script src="StaticList_VS_LiveList.js" defer></script> -->
+    <script src="CompleteProjectusingEventdeligation.js" defer></script>
   </head>
   <body>
     <header class="header">
@@ -43,18 +43,20 @@
     </header>
     <section class="todosection container">
       <h2>Your plan for today ?</h2>
+      <!-- todo form -->
       <form class="form-todo">
         <input type="text" name="" id="" placeholder="Add Todo" />
         <input type="submit" value="Add Todo" class="btn" />
       </form>
       <ul class="todo-list">
         <!-- <li class="todo-li">todo 1</li> -->
-        <li>item 1</li>
-        <li>item 2</li>
-        <li>item 3</li>
-        <li>item 4</li>
-        <li>item 5</li>
-
+        <li>
+          <span class="text">Do this</span>
+          <div class="todo-buttons">
+            <button class="todo-btn done">Done</button>
+            <button class="todo-btn remove">Remove</button>
+          </div>
+        </li>
       </ul>
     </section>
     <section class="section-signup container">
@@ -84,7 +86,7 @@
           <label for="about">About Yourself </label>
           <textarea name="about" id="about" cols="30" rows="10"></textarea>
         </div>
-        <button type="submit" class="btn">Submit</button>
+        <button type="submit" class="btn signupbtn">Submit</button>
       </form>
     </section>
   </body>
